@@ -19,7 +19,6 @@ public class Docente {
     private String apellido;
     private String password;
     private ArrayList<Articulo> articulosCalificadosPorElDocente = new ArrayList<>();
-    private ArrayList<Evaluacion> evaluaciones = new ArrayList<>();
     
 
     public Docente(String nombre, String apellido, String password) {
@@ -69,16 +68,5 @@ public class Docente {
     public void setArticulosCalificadosPorElDocente(ArrayList<Articulo> articulosCalificadosPorElDocente) {
         this.articulosCalificadosPorElDocente = articulosCalificadosPorElDocente;
     }
-
-    public ArrayList<Evaluacion> getEvaluaciones() {
-        return evaluaciones;
-    }
-
-    public void setEvaluaciones(ArrayList<Evaluacion> evaluaciones) {
-        this.evaluaciones = evaluaciones;
-    }
-    
-    
-    
     
 }

@@ -18,11 +18,11 @@ public class Evaluacion {
     private int id;
     private Docente docente;
     private Articulo articulo;
-    private int calificacion;
+    private double calificacion;
     private String resumen;
     private String comentarios;
 
-    public Evaluacion(Docente docente, Articulo articulo, int calificacion, String resumen, String comentarios) {
+    public Evaluacion(Docente docente, Articulo articulo, double calificacion, String resumen, String comentarios) {
         this.docente = docente;
         this.articulo = articulo;
         this.calificacion = calificacion;
@@ -54,11 +54,11 @@ public class Evaluacion {
         this.articulo = articulo;
     }
 
-    public int getCalificacion() {
+    public double getCalificacion() {
         return calificacion;
     }
 
-    public void setCalificacion(int calificacion) {
+    public void setCalificacion(double calificacion) {
         this.calificacion = calificacion;
     }
 
